@@ -1,0 +1,905 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do super_hash_processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1 {C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1/super_hash_processor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:49:38 on Jun 04,2017
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1" C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1/super_hash_processor.sv 
+# -- Compiling module super_hash_processor
+# 
+# Top level modules:
+# 	super_hash_processor
+# End time: 17:49:39 on Jun 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1/tb_final_shp.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:49:59 on Jun 04,2017
+# vlog -reportprogress 300 -work work C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1/tb_final_shp.sv 
+# -- Compiling module tb_super_hash_processor
+# 
+# Top level modules:
+# 	tb_super_hash_processor
+# End time: 17:49:59 on Jun 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_super_hash_processor
+# vsim work.tb_super_hash_processor 
+# Start time: 17:50:04 on Jun 04,2017
+# Loading sv_std.std
+# Loading work.tb_super_hash_processor
+# Loading work.super_hash_processor
+run -all
+# -----------
+# 
+# Messagetext
+# 
+# -----------
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# -----------------------
+# 
+# correct MD5 hash result is:
+# 
+# -----------------------
+# 
+# 987d97e01a36d8ffe7853da2ad808b46
+# 
+# -----------------------
+# 
+# Your MD5 result is:        
+# 
+# -----------------------
+# 
+# 987d97e01a36d8ffe7853da2ad808b46
+# 
+# ***************************
+# 
+# Congratulations! You have the correct MD5 hash result!
+# 
+# Total number of MD5 cycles:         632
+# 
+# 
+# ***************************
+# 
+# -----------
+# 
+# Messagetext
+# 
+# -----------
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# -----------------------
+# 
+# correct SHA1 hash result is:
+# 
+# -----------------------
+# 
+# 23501cbc7c922b16bc0bc0570cb98d641244e594
+# 
+# -----------------------
+# 
+# Your SHA1 result is:        
+# 
+# -----------------------
+# 
+# 23501cbc7c922b16bc0bc0570cb98d641244e594
+# 
+# ***************************
+# 
+# Congratulations! You have the correct SHA1 hash result!
+# 
+# Total number of SHA1 cycles:         777
+# 
+# 
+# ***************************
+# 
+# -----------
+# 
+# Messagetext
+# 
+# -----------
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# a2b38091
+# 
+# 45670123
+# 
+# 8ace0246
+# 
+# 159c048d
+# 
+# 2b38091a
+# 
+# 56701234
+# 
+# ace02468
+# 
+# 59c048d1
+# 
+# b38091a2
+# 
+# 67012345
+# 
+# ce02468a
+# 
+# 9c048d15
+# 
+# 38091a2b
+# 
+# 70123456
+# 
+# e02468ac
+# 
+# c048d159
+# 
+# 8091a2b3
+# 
+# 01234567
+# 
+# 02468ace
+# 
+# 048d159c
+# 
+# 091a2b38
+# 
+# 12345670
+# 
+# 2468ace0
+# 
+# 48d159c0
+# 
+# 91a2b380
+# 
+# 23456701
+# 
+# 468ace02
+# 
+# 8d159c04
+# 
+# 1a2b3809
+# 
+# 34567012
+# 
+# 68ace024
+# 
+# d159c048
+# 
+# -----------------------
+# 
+# correct SHA256 hash result is:
+# 
+# -----------------------
+# 
+# ac39a306e0d8a75522a0f775217592ff131d54d5748d66921f6bce9c18e1451f
+# 
+# -----------------------
+# 
+# Your SHA256 result is:        
+# 
+# -----------------------
+# 
+# ac39a306e0d8a75522a0f775217592ff131d54d5748d66921f6bce9c18e1451f
+# 
+# ***************************
+# 
+# Congratulations! You have the correct SHA256 hash result!
+# 
+# Total number of SHA256 cycles:         636
+# 
+# 
+# ***************************
+# 
+# FINAL TOTAL NUMBER OF CYCLES:        2045
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1/tb_final_shp.sv(493)
+#    Time: 41070 ps  Iteration: 2  Instance: /tb_super_hash_processor
+# Break in Module tb_super_hash_processor at C:/Users/Aadil/Desktop/Project_final_v1-20170605T004039Z-001/Project_final_v1/tb_final_shp.sv line 493
+# End time: 18:42:55 on Jun 04,2017, Elapsed time: 0:52:51
+# Errors: 0, Warnings: 0

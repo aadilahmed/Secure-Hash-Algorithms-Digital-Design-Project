@@ -1,3 +1,5 @@
 # Secure-Hash-Algorithms-Digital-Design-Project
 ECE 111 Final Project
-akjsdnakjdn
+
+Top Delay Design:
+http://cwcserv.ucsd.edu/~billlin/classes/ECE111/index.php
